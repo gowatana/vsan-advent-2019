@@ -22,17 +22,17 @@ PS> git submodule update --remote
 
 ```
 PS> cd ./deploy-1box-vsan/
-PS> ./check_base_setting.ps1 ../configs/advent-2019/conf_vSAN-Cluster-20191201.ps1
+PS> ./check_base_setting.ps1 ../configs/advent-2019/conf_vSAN-Cluster-20191202a.ps1
 ```
 
 vSAN クラスタの作成。
 
 ```
-PS> .\setup_vSAN-Cluster.ps1 ..\configs\advent-2019\conf_vSAN-Cluster-20191202a.ps1
+PS> ./setup_vSAN-Cluster.ps1 ../configs/advent-2019/conf_vSAN-Cluster-20191202a.ps1
 ```
 
 vSAN クラスタの削除。
 
 ```
-PS> .\setup_vSAN-Cluster.ps1 ..\configs\advent-2019\conf_vSAN-Cluster-20191202a.ps1
+PS> ./setup_vSAN-Cluster.ps1 ../configs/advent-2019/conf_vSAN-Cluster-20191202a.ps1
 ```
