@@ -34,5 +34,5 @@ PS> ./setup_vSAN-Cluster.ps1 ../configs/advent-2019/conf_vSAN-Cluster-20191202a.
 vSAN クラスタの削除。
 
 ```
-PS> ./setup_vSAN-Cluster.ps1 ../configs/advent-2019/conf_vSAN-Cluster-20191202a.ps1
+PS> ./destroy_vSAN-Cluster.ps1 ../configs/advent-2019/conf_vSAN-Cluster-20191202a.ps1
 ```
