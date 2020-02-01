@@ -52,8 +52,8 @@ $dns_2 = "192.168.1.102"
 # Network additional settings
 
 # Multi vmk setting
-$add_vmk1 = $false # $true or $false
-$add_vmk2 = $false # $true or $false
+$add_vmk1 = $true # $true or $false
+$add_vmk2 = $true # $true or $false
 
 $vmotion_vmk_port = "vmk1"
 $vsan_vmk_port = "vmk2"
